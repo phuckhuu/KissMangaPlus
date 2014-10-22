@@ -10,12 +10,12 @@ function doc_keyUp(e) {
         case 74:
             //j - Previous chapter
             var prev = document.getElementsByClassName('btnPrevious');
-			window.location.href = prev.parentNode.href;
+			window.location.href = prev[0].parentNode.href;
             break;
         case 75:
         	//k - Next chapter
            	var next = document.getElementsByClassName('btnNext');
-			window.location.href = next.parentNode.href;
+			window.location.href = next[0].parentNode.href;
             break;
         case 72:
             //h - Home
