@@ -1,4 +1,5 @@
 KissMangaPlus
+
 =============
 
 Add shortcut keys for easy navigating on KissManga
@@ -8,7 +9,8 @@ Shortcut List:
 J/K		Next/Previous chapter
 H		Go to Homepage
 L		Go to Bookmark List
-S		Search by manga name
+S		Search by Series Name
+A		Search by Author/Artist
 C		Go to Comment section
 T		Go to top
 B		Bookmark/Unbookmark a manga (Only works in Manga information page)

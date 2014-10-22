@@ -37,9 +37,19 @@ function doc_keyUp(e) {
 
             break;
         case 83:
-        	//s - search by manga
-        	var searchText = prompt("Enter text to search", "");
+        	//s - search by series name
+        	var searchText = prompt("Enter text to search (by Series Name)", "");
         	document.getElementById('keyword').value = searchText;
+			document.getElementById('selectSearch').value = "Manga";
+        	var search = document.getElementById('imgSearch');
+        	search.click();
+        	break;
+			
+		case 65:
+        	//s - search by author/artist
+        	var searchText = prompt("Enter text to search (by Author/Artist)", "");
+        	document.getElementById('keyword').value = searchText;
+			document.getElementById('selectSearch').value = "AuthorArtist";
         	var search = document.getElementById('imgSearch');
         	search.click();
         	break;
