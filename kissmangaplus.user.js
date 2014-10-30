@@ -7,13 +7,13 @@
 
 function doc_keyUp(e) {
     switch (e.keyCode) {
-        case 74:
-            //j - Previous chapter
+        case 75:
+            //k - Previous chapter
             var prev = document.getElementsByClassName('btnPrevious');
 			window.location.href = prev[0].parentNode.href;
             break;
-        case 75:
-        	//k - Next chapter
+        case 74:
+        	//j - Next chapter
            	var next = document.getElementsByClassName('btnNext');
 			window.location.href = next[0].parentNode.href;
             break;
